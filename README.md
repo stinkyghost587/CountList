@@ -2,6 +2,9 @@
 This class exists as a way to count elements without having to do much work; just add the elements, and you get your count.
 The list is sorted by order of insertion.
 
+# HOW TO USE
+Download the .jar file, then you'll want to import the jar into your project (it's best that you look this part up, because different programs have different ways of doing this), then at the very top of whichever class you're writing, write "import com.stinky.countlist.CountList".
+
 CountList Methods
         .print(): Returns every node of the CountList and their values. EX: list = {"hello", "hello", "hi"}, typing
         System.out.println(list.print()) prints: <hello:2, hi:1>
