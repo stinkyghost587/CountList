@@ -15,7 +15,7 @@ Download the .jar file, then you'll want to import the jar into your project (it
 .remove(String): Removes an existing node if it's value is 1, otherwise, decrements the value by 1.
 <br>
 <br>
-.length(): Returns the length of the CountList. EX: list = {"hello", "hello", "hi"}, typing list.length() returns 2, because the number of nodes is 2.
+.length(): Returns the length of the CountList. EX: list = <hello:2, hi:1>, typing list.length() returns 2, because the number of nodes is 2.
 <br>
 <br>
 .destroy(): Completely destroys the list, removing every node and it's value.
@@ -33,7 +33,7 @@ Download the .jar file, then you'll want to import the jar into your project (it
 .getValueFromKey(String): Returns the value of the key you entered. EX: Hello = 3, if you type list.getValue("Hello") then you'll get 3.
 <br>
 <br>
-.getValueFromPos(int): Returns the value at the entered position. EX: list = {"HELLO", "HELLO", "HELLO", "HEY", "HI", "HI"}, position = 0, returns 3 because the value of HELLO — which is in position 0 — is 3.
+.getValueFromPos(int): Returns the value at the entered position. EX: list = <HELLO:3, HEY:1, HI:2>, position = 0, returns 3 because the value of HELLO — which is in position 0 — is 3.
 <br>
 <br>
-.getKey(int): Returns the node at the specified position. EX: list = {"HELLO", "HELLO", "HELLO", "HEY", "HI", "HI"}, list.getKey(0) returns "HELLO", because that's the first node.
+.getKey(int): Returns the node at the specified position. EX: list = <HELLO:3, HEY:1, HI:2>, list.getKey(0) returns "HELLO", because that's the first node.
